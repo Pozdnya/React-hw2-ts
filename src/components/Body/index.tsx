@@ -35,14 +35,6 @@ let Body: React.FC = () => {
 						</button>
 					</div>
 					</div>
-					{/* <div className={style.buttonsIcon}>
-						<button id='kb' className={style.inputButton}>
-							<img src={keyboard} alt="" className={style.img} />
-						</button>
-						<button id='mph' className={style.inputButton}>
-							<img src={microphone} alt="" className={style.img} />
-						</button>
-					</div> */}
 				</div>
 				<div className={style.buttons}>
 					<button className={style.button}>Посик в Google</button>
