@@ -9,12 +9,12 @@
 	cursor: pointer;
 }
 .inputDiv{
-	position: relative;
+	position: relative; 
 }
 .buttonsIcon{
 	position: absolute;
-    top: 49%;
-    right: 31%;
+    top: 41%;
+    right: 1%;
 	vertical-align: middle;
 	margin-bottom: 10px;
 }
