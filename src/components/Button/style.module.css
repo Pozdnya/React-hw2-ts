@@ -1,0 +1,12 @@
+.a{
+	background-color: white;
+	width: auto;
+	height: auto;
+	cursor: default;
+	text-decoration: none;
+	color: black;
+	padding: 0 5px 5px 5px;
+	text-align: center;
+	background-color: inherit;
+	cursor: pointer;
+}
