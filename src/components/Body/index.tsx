@@ -26,7 +26,7 @@ class Body extends React.Component<{}, ownProps>{
 							<input type="text" className={style.input}
 								value={this.state.inputValue}
 								onChange={(event) => {
-									if (event.target.value.match(reg)) { this.setState({ inputValue: event.target.value }) }
+									if (" " + event.target.value.match(reg)) { this.setState({ inputValue: event.target.value }) }
 								}
 								} />
 							<div className={style.buttonsIcon}>
@@ -64,7 +64,7 @@ class Body extends React.Component<{}, ownProps>{
 // 						<input type="text" className={style.input}
 // 							value={val}
 // 							onChange={(event) => {
-// 								if (event.target.value.match(reg)) { setVal(event.target.value)} 
+// 								if (" " + event.target.value.match(reg)) { setVal(event.target.value)} 
 // 							}
 // 							} />
 // 								<div className={style.buttonsIcon}>
