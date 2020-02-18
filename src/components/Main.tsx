@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 
 
-const Main:React.FC<any> = () =>{
+const Main:React.FC | React.ComponentClass = () =>{
 	return(
 		<>
 			<Header/>
