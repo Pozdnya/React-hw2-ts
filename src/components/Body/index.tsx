@@ -10,14 +10,16 @@ interface ownProps {
 }
 
 class Body extends React.Component<{}, ownProps>{
+	
 	state = { inputValue: '' };
 	render() {
-		const reg = "^[A-zА-яЁё]+$";
+		const reg = "^[A-zА-яЁё ]+$";
+		const google = "https://google.com"
 		return (
 			<>
 				<div className={style.input}>
 					<div className={style.logo}>
-						<a href="https://google.com">
+						<a href={google}>
 							<img src={logo} alt="" />
 						</a>
 					</div>
@@ -26,7 +28,8 @@ class Body extends React.Component<{}, ownProps>{
 							<input type="text" className={style.input}
 								value={this.state.inputValue}
 								onChange={(event) => {
-									if (" " + event.target.value.match(reg)) { this.setState({ inputValue: event.target.value }) }
+									
+									if (event.target.value.match(reg)) { this.setState({ inputValue: event.target.value }) }
 								}
 								} />
 							<div className={style.buttonsIcon}>

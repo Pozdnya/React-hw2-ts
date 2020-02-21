@@ -1,0 +1,36 @@
+.divList{
+	display: flex;
+	position: absolute;
+	flex-wrap: wrap;
+	right: 5%;
+	width: 20%;
+	height: 50%;
+    margin: 12% 0 ;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 1;
+	background: white;
+	box-shadow: 15px 0px 8px -3px rgba(50, 50, 50, 0.75);
+	scroll-behavior: smooth;
+	overflow-y: auto;
+}
+.imageContainer{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	margin: 15px 15px 15px 15px;
+}
+.a{
+	cursor: pointer;
+	height: 20px;
+	width: auto;
+	text-decoration: none;
+	color: #404040;
+}
+.images{
+
+	width: 48px;
+	cursor: pointer;
+}

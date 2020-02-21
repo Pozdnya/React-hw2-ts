@@ -42,8 +42,8 @@
 	border-radius: 10px;
 	cursor: pointer;
 	border: 0px;
-	background-color: lightgray;
+	background-color: rgb(197, 194, 194);
 }
 .button:hover{
-border: 1px solid black;
+border: 1px solid #404040;
 }
