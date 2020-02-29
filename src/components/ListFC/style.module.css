@@ -24,13 +24,12 @@
 }
 .a{
 	cursor: pointer;
-	height: 20px;
+	height: auto;
 	width: auto;
 	text-decoration: none;
 	color: #404040;
 }
 .images{
-
 	width: 48px;
 	cursor: pointer;
 }
